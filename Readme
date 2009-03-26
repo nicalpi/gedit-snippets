@@ -1,0 +1,14 @@
+My snippets used on Gedit.
+
+To use them, just install the snippet plugin for Gedit, and copy these files in ~/.gnome2/gedit/snippets
+
+Author Nicolas Alpi
+
+jsunittest is a port of Dr Nic texmate bundle (http://github.com/drnic/javascript-unittest-tmbundle/tree/master)
+sugartext are snippets for SugarTest framework (http://sugartest.scriptia.net/)
+
+I'll improve these snippets with a Jquery one quickly.
+
+Other snippets are not from me, founded on the web.
+
+http://www.twitter.com/spyou
