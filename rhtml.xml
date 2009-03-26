@@ -1,0 +1,512 @@
+<?xml version='1.0' encoding='utf-8'?>
+<snippets language="rhtml">
+  <snippet>
+    <text><![CDATA[&#x2192;]]></text>
+    <tag>arrow</tag>
+    <description>→</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[&#x232B;]]></text>
+    <tag>backspace</tag>
+    <description>⌫</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[&#x21E4;]]></text>
+    <tag>backtab</tag>
+    <description>⇤</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<base href="${1:href}" ${2:target}>]]></text>
+    <tag>base</tag>
+    <description>Base</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<body>
+	$0
+</body>]]></text>
+    <tag>body</tag>
+    <description>Body</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<body onload="${1:onload}; return false">
+	$0
+</body>]]></text>
+    <tag>bodyo</tag>
+    <description>Body</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<br />]]></text>
+    <tag>br</tag>
+    <description>Br</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[&#x2318;]]></text>
+    <tag>command</tag>
+    <description>⌘</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[&#x2303;]]></text>
+    <tag>control</tag>
+    <description>⌃</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[&#x2326;]]></text>
+    <tag>delete</tag>
+    <description>⌦</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<div id="${1:name}">
+	$0
+</div>]]></text>
+    <tag>div</tag>
+    <description>Div</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	"http://www.w3.org/TR/html4/strict.dtd">
+]]></text>
+    <tag>doctype</tag>
+    <description>HTML — 4.01 Strict</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+	"http://www.w3.org/TR/html4/loose.dtd">
+]]></text>
+    <tag>doctype</tag>
+    <description>HTML — 4.01 Transitional</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+]]></text>
+    <tag>doctype</tag>
+    <description>XHTML — 1.0 Frameset</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+]]></text>
+    <tag>doctype</tag>
+    <description>XHTML — 1.0 Strict</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+]]></text>
+    <tag>doctype</tag>
+    <description>XHTML — 1.0 Transitional</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+]]></text>
+    <tag>doctype</tag>
+    <description>XHTML — 1.1</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[&#x2193;]]></text>
+    <tag>down</tag>
+    <description>↓</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[&#x2305;]]></text>
+    <tag>enter</tag>
+    <description>⌅</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<%= $0 %>]]></text>
+    <tag>erb</tag>
+    <description>Insert ERb’s &lt;%= .. %&gt;</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[&#x238B;]]></text>
+    <tag>escape</tag>
+    <description>⎋</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<form action="${1:action}" method="${2:get}" accept-charset="utf-8">
+	$0
+
+	<p><input type="submit" value="Continue &rarr;"></p>
+</form>]]></text>
+    <tag>form</tag>
+    <description>Form</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<%= form_tag :action => "${1:update}" %>]]></text>
+    <tag>ft</tag>
+    <description>form_tag</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<h1 id="${1:name}">$0</h1>]]></text>
+    <tag>hone</tag>
+    <description>Heading</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<title>${1:title}</title>
+	$0
+</head>]]></text>
+    <tag>head</tag>
+    <description>Head</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<input type="${1:button}" name="${2:some_name}" value="${3:3}" />]]></text>
+    <tag>input</tag>
+    <description>Input</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[&#x2190;]]></text>
+    <tag>left</tag>
+    <description>←</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<%= link_to "${1:text}", :action => "${2:index}" %>]]></text>
+    <tag>lia</tag>
+    <description>link_to (action)</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<%= link_to "${1:text}", :action => "${2:edit}", :id => ${3:item} %>]]></text>
+    <tag>liai</tag>
+    <description>link_to (action, id)</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<%= link_to "${1:text}", :controller => "${2:items}" %>]]></text>
+    <tag>lic</tag>
+    <description>link_to (controller)</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<%= link_to "${1:text}", :controller => "${2:items}", :action => "${3:index}" %>]]></text>
+    <tag>lica</tag>
+    <description>link_to (controller, action)</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<%= link_to "${1:text}", :controller => "${2:items}", :action => "${3:edit}", :id => ${4:item} %>]]></text>
+    <tag>licai</tag>
+    <description>link_to (controller, action, id)</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<link rel="${1:stylesheet}" href="${2:master}" type="text/css" media="${3:screen}" title="${4:title}" charset="${utf}"${5:TM_XHTML}>]]></text>
+    <tag>link</tag>
+    <description>Link</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<a href="mailto:${1:email}?subject=${2:feedback}">${3:email}</a>]]></text>
+    <tag>mailto</tag>
+    <description>Mail Anchor</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<meta name="${1:name}" content="${2:content}"${TM_XHTML}>]]></text>
+    <tag>meta</tag>
+    <description>Meta</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<object width="${1:320}" height="${2:240}" classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" codebase="http://www.apple.com/qtactivex/qtplugin.cab">
+	<param name="src" value="${3:movie}">
+	<param name="controller" value="${4:true}">
+	<param name="autoplay" value="${5:false}">
+	<embed src="${3:movie}"
+		width="${1:320}" height="${2:240}"
+		controller="${4:true}" autoplay="${5:false}"
+		scale="tofit" cache="true"
+		pluginspage="http://www.apple.com/quicktime/download/"
+	>
+</object>]]></text>
+    <tag>movie</tag>
+    <description>Embed QT Movie</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[&nbsp;]]></text>
+    <tag>nbsp</tag>
+    <description>Non-Breaking Space</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[&#x2325;]]></text>
+    <tag>option</tag>
+    <description>⌥</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[&#x21A9;]]></text>
+    <tag>return</tag>
+    <description>↩</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[&#x2192;]]></text>
+    <tag>right</tag>
+    <description>→</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<%= render :partial => "${1:item}" %>]]></text>
+    <tag>rp</tag>
+    <description>render (partial)</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<%= render :partial => "${1:item}", :collection => ${2:items} %>]]></text>
+    <tag>rpc</tag>
+    <description>render (partial, collection)</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<%= render :partial => "${1:item}", :locals => { :${2:name} => ${3:value} } %>]]></text>
+    <tag>rpl</tag>
+    <description>render (partial, locals)</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<%= render :partial => "${1:item}", :object => ${2:object} %>]]></text>
+    <tag>rpo</tag>
+    <description>render (partial, object)</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<%= render :partial => "${1:item}", :status => ${2:500} %>]]></text>
+    <tag>rps</tag>
+    <description>render (partial, status)</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<script type="text/javascript" charset="utf-8">
+	$0
+</script>]]></text>
+    <tag>script</tag>
+    <description>Script</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<script src="${1:url}" type="text/javascript" charset="${2:utf}"></script>]]></text>
+    <tag>scriptsrc</tag>
+    <description>Script With External Source</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[&#x21E7;]]></text>
+    <tag>shift</tag>
+    <description>⇧</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<style type="text/css" media="${1:screen}">
+	$0
+</style>]]></text>
+    <tag>style</tag>
+    <description>Style</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[&#x21E5;]]></text>
+    <tag>tab</tag>
+    <description>⇥</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<table border="${1:0}" cellpadding="${2:0}">
+	<tr><th>${3:Header}</th></tr>
+	<tr><td>${4:Data}</td></tr>
+</table>]]></text>
+    <tag>table</tag>
+    <description>Table</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<textarea name="${1:name}" rows="${2:8}" cols="${3:40}">
+$0
+</textarea>]]></text>
+    <tag>textarea</tag>
+    <description>Text Area</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<title>${1:title}</title>]]></text>
+    <tag>title</tag>
+    <description>Title</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[&#x2191;]]></text>
+    <tag>up</tag>
+    <description>↑</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>${1:page_title}</title>
+</head>
+<body>
+$0
+</body>
+</html>
+]]></text>
+    <tag>dt</tag>
+    <description>DOCTYPE</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<%= stylesheet_link_tag "${1:default}.css" %>]]></text>
+    <tag>sty</tag>
+    <description>stylesheet_link_tag</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<%= start_form_tag :action => "${1:update}", :id => @${2:model} %>
+	$0
+<%= end_form_tag %>]]></text>
+    <tag>frm</tag>
+    <description>form_tag</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<%= text_field :${1:modelname}, :${2:attribute_name}, :size => ${3:40} %>]]></text>
+    <tag>txt</tag>
+    <description>text_field :modelname, :attribute_name, options</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<%= text_area :${1:modelname}, :${2:attribute_name}, :rows => ${3:4} :cols => ${4:10} %> $0
+]]></text>
+    <tag>txta</tag>
+    <description>text_area</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<%= check_box :${1:modelname}, :${2:attribute}, {$3}, "${4:yes}","${5:no}"} %> $0]]></text>
+    <tag>chk</tag>
+    <description>check_box :modelname, :attribute, options, on_value, off_value</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<%=
+    options = [["${1:Yes}","${2:value_yes}"],["${3:No}","${4:value_no}"]]
+    select ("${5:modelname}","${6:modelparam}", ${7:options}) 
+%> $0
+]]></text>
+    <tag>opt</tag>
+    <description>option</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<%= submit_tag "${1:Value}" %>]]></text>
+    <tag>submit</tag>
+    <description>submit</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<%= button_to "${1:Text Button}" , :action => :${2:action}, :id => ${3:object} %> $0]]></text>
+    <tag>btn</tag>
+    <description>button_to</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<% $0 %>]]></text>
+    <tag>erbc</tag>
+    <description>Insert ERb’s &lt;% .. %&gt;</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[=> $0]]></text>
+    <tag>sk</tag>
+    <description>Separator key/value =&gt;</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<%= hidden_field :${1:modelname}, :${2:attribute_name}, :size => ${3:40} %>]]></text>
+    <tag>txth</tag>
+    <description>hidden_field :modelname, :attribute_name, options</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<%= password_field :${1:modelname}, :${2:attribute_name}, :size => ${3:40} %>]]></text>
+    <tag>pass</tag>
+    <description>password_field :modelname, :attribute_name, options</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<%= radio_button :${1:modelname}, :${2:attribute}, :${3:tag_value} %> $0]]></text>
+    <tag>rbt</tag>
+    <description>radio_button :modelname, :attribute, :tag_value, options</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<%= select :${1:modelname},
+					 :${2:attribute},
+ 		  		 ${3:Model}.find_all.collect {|p| [ p.${4:name}, p.${5:id} ] },
+					 :prompt => "${7:Select}" %> ]]></text>
+    <tag>select</tag>
+    <description>select :variable, :attribute, choices, options, html_options</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<label for="${1:variable_model}_${2:attribute}">${3:text}</label> $0]]></text>
+    <tag>lbl</tag>
+    <description>label for="model_attibute"</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<p>
+	$0
+</p>]]></text>
+    <tag>p</tag>
+    <description>HTML - &lt;p&gt; .. &lt;/p&gt;</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<tr id="${1:id}">
+	$0
+</tr>]]></text>
+    <tag>tr</tag>
+    <description>HTML - &lt;tr&gt; .. &lt;/tr&gt;</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<td>
+	$0
+</td>]]></text>
+    <tag>td</tag>
+    <description>HTML - &lt;td&gt; .. &lt;/td&gt;</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<%= javascript_include_tag :${1:defaults} %> $0]]></text>
+    <tag>js</tag>
+    <description>Javascript_include_tag :defaults</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<%= image_tag '${1:indicator.gif}', :id => '${2:id}', :style => '${3:style};' %> $0]]></text>
+    <tag>img</tag>
+    <description>image_tag 'image.gif', :id =&gt; 'id', :style =&gt; 'style'</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<%= form_remote_tag :url => { :action => :${1:action}, :id => @${2:object} },
+					:html => { :id => '${3:form-id}' },
+					:loading => 'Form.disable("${3}")',
+					:complete => 'Form.enable("${3}")' %>
+
+	<%= render :partial => "${4:partial}" %>
+	<%= submit_tag "${5:Send}" %>
+
+<%= end_form_tag %>
+<%= image_tag '${6:indicator.gif}', :id => '${7:form-indicator}', :style => 'display:none;' %>
+$0]]></text>
+    <tag>frmr</tag>
+    <description>form_remote_tag</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<%= yield %> $0]]></text>
+    <tag>yield</tag>
+    <description>&lt;%= yield %&gt;</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<ul>
+	$0
+</ul>]]></text>
+    <tag>ul</tag>
+    <description>HTML - &lt;ul&gt; .. &lt;/ul&gt;</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<li> $0 </li>]]></text>
+    <tag>li</tag>
+    <description>HTML - &lt;li&gt; .. &lt;/li&gt;</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<% end %> $0]]></text>
+    <tag>end</tag>
+    <description>&lt;% end %&gt;</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<% if flash[:message] %>
+	<div><%= h flash[:message] %></div>
+<% end %>
+]]></text>
+    <tag>flash</tag>
+    <description>flash[:notice]</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<%= h ${1} %> $0]]></text>
+    <tag>erbh</tag>
+    <description>Insert ERb’s &lt;%= h .. %&gt;</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<% for ${1:item} in @${2:items} %>
+	$0
+<% end %> ]]></text>
+    <tag>forin</tag>
+    <description>for .. in .. end</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[=>]]></text>
+    <tag>l</tag>
+    <description>New snippet</description>
+  </snippet>
+</snippets>

@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<snippets language="php">
+  <snippet>
+    <text><![CDATA[GetMessageStringFromString("${1:message_id}")]]></text>
+    <tag>gm</tag>
+    <description>GetMessageId</description>
+  </snippet>
+</snippets>

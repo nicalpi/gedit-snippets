@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<snippets language="js">
+  <snippet>
+    <text><![CDATA[function ${1:name}(${2:args}) {
+	${0}
+}]]></text>
+    <tag>fc</tag>
+    <description>function</description>
+  </snippet>
+</snippets>
